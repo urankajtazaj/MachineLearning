@@ -10,7 +10,7 @@ from naiveBayes import naiveBayes
 
 k = naiveBayes(shteguDataBaze = "tabele_shembull.csv", AtributiKlase = "play" )
 k.kalkulo_propabilitetin_AtributitKlase()
-k.hipoteza = {"outlook":"sunny", "temp":"hot", "humidity":"high", "windy":"false"}
+k.hipoteza = {"outlook":"rainy", "temp":"mild", "humidity":"normal", "windy":"true"}
 
 k.Kalkulo_propabilitetin_kushtezues(k.hipoteza)
 k.klasifiko()

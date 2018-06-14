@@ -19,7 +19,7 @@ Teorema e Bayesit:
 import pandas as pd
 
 #Percaktimi i Propabilitetit te evidencave te klases
-propabilitei_klases = {}
+propabiliteti_klases = {}
 
 #Leximi i te dhenave nga baza e te dhenave
 data = pd.read_csv('tabele_shembull.csv')
@@ -33,7 +33,7 @@ lista_klases = list(data[Atributi_klase])
  
 #Perderisa ne liste ka nje evidence
 for i in vlerat_klases:
-    #Numero evidence kusht/Numri i te gjitha evidencave ne klase
-    propabilitei_klases[i] = lista_klases.count(i)/float(len(lista_klases))
+    #Numero evidencen kusht/Numri i te gjitha evidencave ne klase
+    propabiliteti_klases[i] = lista_klases.count(i)/float(len(lista_klases))
     
 print("Vektori i klases: ", propabilitei_klases)

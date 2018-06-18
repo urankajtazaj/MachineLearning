@@ -2,7 +2,7 @@
 """
 Created on Thu Jun 14 09:53:01 2018
 
-@author: ssheh
+@author: Sadri Shehu ssheh
 """
 import pandas as pd
 import functools as funct

@@ -1,7 +1,7 @@
 import pandas as pd
 
-train = pd.read_csv("TrainDataTest.csv")
-test = pd.read_csv("TestDataTest.csv")
+train = pd.read_csv("TeDhenatTrajnuese.csv")
+test = pd.read_csv("TeDhenatTestuese.csv")
 
 trainY = train['Klasa']
 trainX = train.drop('Klasa',1)

@@ -8,7 +8,7 @@ class KNN:
     testY = []
     predikimetY = []
     
-    def __init__(self,k):
+    def __init__(self,k=3):
         self.k = k
         
     def distancaEuklidit(instanca1,instanca2,gjatesia):

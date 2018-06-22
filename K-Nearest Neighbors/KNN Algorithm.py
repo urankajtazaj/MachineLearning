@@ -1,5 +1,3 @@
-import pandas as pd
-
 import math
 import operator 
 class KNN:

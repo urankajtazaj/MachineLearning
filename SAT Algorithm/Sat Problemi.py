@@ -54,7 +54,7 @@ def gjeneroZgjidhje(zgjidhja,n=0,M=2):
 import numpy as np
 
 #Leximi i SAT fajll-it
-file = open('uf20-0100.cnf','r')
+file = open('SAT Examples/uf20-0100.cnf','r')
 data = file.read()
 data = data.split('\n')
 

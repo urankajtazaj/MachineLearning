@@ -77,8 +77,6 @@ for rresht in data:
                 numer_int = int(numer)
                 if numer_int < 0:
                     list.append( (abs(numer_int), 0) )
-                elif numer_int > 0:         ## Eliminimi i zerove ne fund
-                    list.append( (numer_int, 1) )
             except:
                 print("Gabim gjate konvertimit", rreshti)
         formula.append(list)

@@ -75,8 +75,7 @@ for rresht in data:
         for numer in anetaretRreshtit:
             try:
                 numer_int = int(numer)
-                if numer_int < 0:
-                    list.append( (abs(numer_int), 0) )
+                list.append( (abs(numer_int), 0) )
             except:
                 print("Gabim gjate konvertimit", rreshti)
         formula.append(list)
